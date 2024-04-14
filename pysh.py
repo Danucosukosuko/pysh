@@ -76,7 +76,7 @@ def emular_shell(usar_colores, oneline, custom_prompt=None):
             os.system(comando)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Shell Emulator')
+    parser = argparse.ArgumentParser(description='Py Shell')
     parser.add_argument('--nocolors', action='store_true', help='Deshabilitar los colores del prompt')
     parser.add_argument('--oneline', action='store_true', help='Usar el formato de una sola línea para el prompt')
     parser.add_argument('--customprompt', action='store_true', help='Usar el prompt personalizado')
